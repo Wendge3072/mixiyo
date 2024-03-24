@@ -50,7 +50,7 @@ public class BlackInOutBehavior : MonoBehaviour
             yield return null;
         }
         // Debug.Log(Time.time - t);
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene("Stage2");
         // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
